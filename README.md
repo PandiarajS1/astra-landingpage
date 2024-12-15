@@ -22,12 +22,6 @@ Check out the live demo [astra landing page](https://astra-landingpage.vercel.ap
 
 ---
 
-## 📸 Screenshots
-
-![Screenshot of Astra](https://astra-landingpage.vercel.app/assets/og-image.png)
-
----
-
 ## 🛠️ Installation
 
 ### Prerequisites
