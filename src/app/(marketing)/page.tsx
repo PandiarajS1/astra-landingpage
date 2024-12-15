@@ -150,7 +150,7 @@ const HomePage = () => {
                 <div className="flex flex-col justify-center items-center py-10 md:py-20 w-full">
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full gap-8">
                         {features.map((feature)=>(
-                            <div className="flex flex-col items-start px-10">
+                            <div key={feature.title} className="flex flex-col items-start px-10">
                                 <div className="flex items-center justify-center">
                                     <feature.icon className="w-8 h-8"/>
                                 </div>
@@ -203,7 +203,7 @@ const HomePage = () => {
 
                             <CardContent className="pt-6 space-y-3">
                                 {card.features.map((feature)=>(
-                                    <div className="flex item-center gap-2">
+                                    <div key={feature} className="flex item-center gap-2">
                                     <Zap className="w-4 h-4 text-primary fill-primary"/>
                                     <p>{feature}</p>
                                 </div>
@@ -234,7 +234,7 @@ const HomePage = () => {
                             What people are saying
                         </h1>
                         <p className="text-muted-foreground mt-6">
-                            See how Astra empowers business of all sies. Here's what real people are saying on twitter
+                            See how Astra empowers business of all sies. Here`&apos;`s what real people are saying on twitter
                         </p>
                 </div>
             </Container>
@@ -307,7 +307,7 @@ const HomePage = () => {
                             <h2 className="text-4xl lg:text-5xl xl:text-6xl lg:!leading-snug font-semibold mt-8">From Idea to Launch <br/>
                             Faster Than Ever</h2>
                             <p className="text-muted-foreground mt-6 max-w-md mx-auto">
-                            Build stunning websites with Astra's intuitive drag-and-drop builder and powerful AI assistant
+                            Build stunning websites with Astra`&apos;`s intuitive drag-and-drop builder and powerful AI assistant
                             </p>
                             <Button
                                 variant="white"
