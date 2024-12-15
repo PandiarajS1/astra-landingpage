@@ -1,6 +1,6 @@
 # Astra - AI Powered Website Builder
 
-![Astra Logo](/assets/og-image.png)
+![Astra Logo]([/](https://astra-landingpage.vercel.app/assets/og-image.png)
 
 **Astra** is an AI-powered website builder that allows you to create stunning, functional websites in minutes — no coding skills required. Get started for free and experience a seamless way to establish your online presence.
 
@@ -18,7 +18,7 @@
 
 ## 🔗 Live Demo
 
-Check out the live demo [here](https://astra-landingpage.vercel.app).
+Check out the live demo [astra landing page](https://astra-landingpage.vercel.app).
 
 ---
 
